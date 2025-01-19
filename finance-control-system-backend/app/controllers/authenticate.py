@@ -1,7 +1,6 @@
 from fastapi import HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.db.repositories import user_repository
 from app.db.repositories.token_repository import TokenRepository
 from app.db.repositories.user_repository import UserRepository
 from app.dtos.auth import UserLoginDto, AccessTokenDto
